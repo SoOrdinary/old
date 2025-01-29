@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="@color/input_background"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_box"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="20dp"
+        android:hint="姓名" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_box"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="20dp"
+        android:inputType="number"
+        android:hint="电话" />
+
+    <EditText
+        android:id="@+id/wx"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_box"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="20dp"
+        android:visibility="gone"
+        android:hint="微信" />
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_margin="20dp"
+        android:paddingHorizontal="0dp"
+        android:text="添加"/>
+
+</LinearLayout>
